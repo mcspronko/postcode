@@ -1,0 +1,20 @@
+{
+  "name": "pronko/postcode",
+  "description": "Postcode filter for Sales Order Grid",
+  "require": {
+    "magento/module-sales": "^102|^103"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Pronko\\Postcode\\": ""
+    }
+  }
+}
